@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*body====================================================================================*/
+.body{
+    
+
+}
+
+/*nav================================================================================*/
+.navbar{
+    padding:20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; /**/
+    z-index: 999; /*The z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.*/
+    background-color: white;
+    box-shadow: 0 0 14px rgba(0,0,0,0.3);
+ 
+}
+.navbar .logo h1{
+    color:aliceblue;
+    border-bottom: 4px solid pink;
+}
+
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: darkgray;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    
+}
+
+.navbar .menu li a:hover{
+    border-bottom: 4px solid pink;
+}
+
+.navbar .menu li .active{
+    border-bottom:4px solid pink;
+    
+}
+
+.navbar .menu li a {
+   color:black;
+}
+/*deals of the day========================================================================*/
+.description h1{
+    font-size: 30px;
+    font-style: oblique;
+    align-content: center;
+}
+
+/*Products/cards==========================================================================*/
+.container {
+        display: flex;
+        justify-content: space-between;
+        border-style: solid;
+        border-width: 1px;
+        border-color: transparent;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price{
+    color:grey;
+    font-size: 22px;
+}
+.card buttom{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color:white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card buttom:hover{
+    opacity: 0.7;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    
+}
+
+
+
+
+
+/* footer ===================================================================================*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.links a{
+    color: white;
+}
+
+.links span{
+    color:cornflowerblue;
+}
+
+/*Footer-Links===============================================================================*/
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
